@@ -79,3 +79,87 @@ Bar Chart
 	border-radius: 0 5px 5px 0;
 }
 
+/*============================
+Light box
+============================*/
+/*.outter_box {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}*/
+
+
+.black_overlay {
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	background-color: rgba(84, 84, 84, .5);
+	z-index: 101;
+	/*-moz-opacity: 0.8;
+	opacity: .80;
+	padding: 10px;
+	filter: alpha(opacity=60);*/
+}
+
+.white_content {
+	display: none;
+	position: absolute;
+	top: 25%;
+	left: 25%;
+	width: 50%;
+	height: 50%;
+	border: 16px solid #ffffff;
+	border-radius: 10px;
+	background-color: white;
+	z-index: 102;
+	opacity: 1;
+}
+
+.button a {
+	width: 80px;
+	height: 30px;
+	background: #EB7D7D;
+	border-radius: 10px;
+	float: right;
+	text-decoration: none;
+	text-align: center;
+	color: #fff;
+	padding-top: 10px;
+}
+
+/*============================
+Media Block
+============================*/
+
+.fb {
+	padding-right: 10px;
+	float: left;
+}
+
+.cupcake {
+	overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
